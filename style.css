@@ -1,0 +1,39 @@
+:root {
+
+    --fonte-principal: 'Ole', cursive;
+
+    --cor-texto: #333;
+
+    --espacamento: 20px;
+
+    --background-color: #52b500;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: var(--fonte-principal);
+
+    color: var(--cor-texto);
+
+    padding: var(--espacamento);
+
+    text-align: center;
+
+    background-color: var(--background-color);
+
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: 300;
+}
